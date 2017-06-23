@@ -1,0 +1,5 @@
+﻿  test.cpp
+  model-3d.cpp
+  load-collada.cpp
+  Generating Code...
+LINK : fatal error LNK1561: entry point must be defined

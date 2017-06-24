@@ -132,12 +132,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\james\collada\builder.cpp" />
+    <ClCompile Include="..\..\src\james\collada\lib-geometries-builder.cpp" />
     <ClCompile Include="..\..\src\james\load-collada.cpp" />
     <ClCompile Include="..\..\src\james\model-3d.cpp" />
     <ClCompile Include="..\..\src\test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\james\collada\builder.hpp" />
+    <ClInclude Include="..\..\src\james\collada\dom.hpp" />
+    <ClInclude Include="..\..\src\james\collada\exceptions.hpp" />
+    <ClInclude Include="..\..\src\james\collada\lib-geometries-builder.hpp" />
     <ClInclude Include="..\..\src\james\load-collada.hpp" />
     <ClInclude Include="..\..\src\james\model-3d.hpp" />
   </ItemGroup>
